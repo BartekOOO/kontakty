@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="Styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="kafelek lewa">
+        <table id="tabelka">
+            <thead>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Imie</th>
+                    <th>Nazwisko</th>
+                    <th>Email</th>
+                    <th>Wiek</th>
+                    <th>Data urodzenia</th>
+                    <th>Płeć</th>
+                    <th>Grupa</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="kafelek tlo prawa">
+        <input type="text" id="imie" placeholder="Imie"><br><br>
+        <input type="text" id="nazwisko" placeholder="Nazwisko"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <input type="number" id="wiek" placeholder="Wiek"><br><br>
+        <input type="date" id="data" placeholder="Data urodzenia"><br><br>
+        <input type="radio" class="plec" value="Kobieta" name="plec"><span class="napis1">Kobieta</span>
+        <input type="radio" checked class="plec" value="Mezczyzna" name="plec"><span class="napis1">Mężczyzna</span><br><br>
+        <select id="grupa">
+            <option value="Rodzina">Rodzina</option>
+            <option value="Przyjaciele">Przyjaciele</option>
+            <option value="Praca">Praca</option>
+            <option value="Znajomi">Znajomi</option>
+        </select><br><br>
+        <button class="przycisk tooltip" id="przycisk">Ok<span class="tooltiptext">Dodaj nowy kontakt</span></button><br><br>
+        <img id="tygrys" src="Images/kicia.png">
+    </div>
+
+</body>
+
+</html>
+
+<script src="Scripts/skrypt.js"></script>
